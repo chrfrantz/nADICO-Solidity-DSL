@@ -43,8 +43,7 @@ object Sheet {
   		D(may),
   		I("cast", onObject("vote", "string"), onTarget("candidate")),
   		C("only", "once"))
- 
- 
+  
  var rule12 = NAdico(
   		A("System"),
   		D(must),
@@ -89,8 +88,7 @@ object Sheet {
   			D(must),
   			I("send", onObject("funds"), onTarget("Buyer", "address"))))
   		)
- 
- 
+  
  var rule21 = NAdico(
   		A("System"),
   		D(must),
