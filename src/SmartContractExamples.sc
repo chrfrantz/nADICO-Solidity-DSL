@@ -64,7 +64,7 @@ object Sheet {
 
  // Step 4: Write contract to file
 
- new PrintWriter("EscrowContract.js") { write(escrowContract); close }
+ new PrintWriter("VotingContract.js") { write(votingContract); close }
  
  /////////////////////////////////////////////////////////////////////
 
@@ -118,6 +118,7 @@ object Sheet {
  cb2.addToContract(rule20)
  cb2.addToContract(rule21)
  cb2.addToContract(rule22)
+ cb2.addToContract(rule23)
  
  // Step 3: Generate the contract
  
